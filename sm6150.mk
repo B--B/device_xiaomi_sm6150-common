@@ -303,6 +303,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist.xml \
     $(LOCAL_PATH)/configs/permissions/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
 
+# Release Keys
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/bb-priv/keys/releasekey
+
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.6.vendor \
