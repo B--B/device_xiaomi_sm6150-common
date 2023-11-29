@@ -440,6 +440,10 @@ vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml
 -vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
 -vendor/lib64/vendor.dolby.hardware.dms@2.0.so
 
+# Media (Dolby VNDK)
+-vendor/lib/libstagefright_foundation-v33.so
+-vendor/lib64/libstagefright_foundation-v33.so
+
 # Peripheral Manager
 -vendor/bin/pm-proxy
 -vendor/bin/pm-service
