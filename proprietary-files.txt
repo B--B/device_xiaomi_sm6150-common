@@ -19,7 +19,7 @@ vendor/etc/init/vendor.qti.cdsprpc-service.rc
 product/app/PowerOffAlarm/PowerOffAlarm.apk
 -vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 -vendor/bin/power_off_alarm
-vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
+vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|cc52088994df23f6763e99a3d92d564168ebb4b9
 -vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 -vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
@@ -63,7 +63,7 @@ vendor/app/IWlanService/IWlanService.apk
 -vendor/bin/cnd
 vendor/etc/cne/mwqem.conf
 vendor/etc/cne/profileMwqem.xml
-vendor/etc/init/cnd.rc
+vendor/etc/init/cnd.rc|9dc5818ff9b3f4aae94c074713975844c77f8f2b
 -vendor/lib64/libcne.so
 -vendor/lib64/libcneapiclient.so
 -vendor/lib64/libcneoplookup.so
@@ -199,14 +199,14 @@ system_ext/framework/dpmapi.jar
 -system_ext/lib64/libdpmtcm.so
 system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
 -vendor/bin/dpmQmiMgr
-vendor/etc/init/dpmQmiMgr.rc
+vendor/etc/init/dpmQmiMgr.rc|fe55baa94a879edbfabccbf6abb8284cf5bce69d
 -vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so;MODULE=com.qualcomm.qti.dpm.api@1.0_vendor
 -vendor/lib64/libdpmqmihal.so
 
 # DRM
 -vendor/bin/qseecomd
 vendor/etc/gpfspath_oem_config.xml
-vendor/etc/init/qseecomd.rc
+vendor/etc/init/qseecomd.rc|489b5e5bf4176fbf15928b252a628cc4386f2a41
 -vendor/lib64/libGPreqcancel.so
 -vendor/lib64/libGPreqcancel_svc.so
 -vendor/lib64/libQSEEComAPI.so
@@ -224,7 +224,7 @@ vendor/etc/init/qseecomd.rc
 
 # DRM widevine
 -vendor/bin/hw/android.hardware.drm@1.3-service.widevine
-vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|aa9480824c939db0ece69b0923c7f33b338895e0
 vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 -vendor/lib64/libwvhidl.so
 -vendor/lib64/mediadrm/libwvdrmengine.so
@@ -327,7 +327,7 @@ system_ext/priv-app/ims/ims.apk|d12e0948e75eaf378dea2746636951b0c4eacaf6
 -vendor/bin/imsdatadaemon
 -vendor/bin/imsqmidaemon
 -vendor/bin/imsrcsd
-vendor/etc/init/ims_rtp_daemon.rc
+vendor/etc/init/ims_rtp_daemon.rc|582b29a410e042770bda5feddb4e9a97f56fd53f
 vendor/etc/init/imsdatadaemon.rc
 vendor/etc/init/imsqmidaemon.rc
 vendor/etc/init/imsrcsd.rc
@@ -483,12 +483,12 @@ system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 -vendor/bin/tftp_server
 vendor/etc/data/dsi_config.xml
 vendor/etc/data/netmgr_config.xml
-vendor/etc/init/dataadpl.rc
-vendor/etc/init/dataqti.rc
-vendor/etc/init/netmgrd.rc
+vendor/etc/init/dataadpl.rc|9c12ba8381396135fa821d5e4cd89315178af238
+vendor/etc/init/dataqti.rc|f7706d8a2fe2ad765bb12079ec472e7c755d4394
+vendor/etc/init/netmgrd.rc|d6d41d6011cd9e4ba25ad77fb1362d7a280a2914
 vendor/etc/init/qcrild.rc
-vendor/etc/init/vendor.qti.rmt_storage.rc
-vendor/etc/init/vendor.qti.tftp.rc
+vendor/etc/init/vendor.qti.rmt_storage.rc|92a246ac7dc01c08816a8f3ba6290a45c4a5ab31
+vendor/etc/init/vendor.qti.tftp.rc|354c31f449e10ad86e8ba9790b173f47b0083003
 -vendor/lib64/deviceInfoServiceModule.so
 -vendor/lib64/libconfigdb.so
 -vendor/lib64/libdsi_netctrl.so
